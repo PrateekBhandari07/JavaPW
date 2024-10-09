@@ -10,6 +10,7 @@ public class Chess
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String coordinate1=sc.next(),coordinate2=sc.next();
+
         int col1 = coordinate1.charAt(0) - 'a' + 1;
         int row1 = coordinate1.charAt(1) - '0';
         int col2 = coordinate2.charAt(0) - 'a' + 1;
