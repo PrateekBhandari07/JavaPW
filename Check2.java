@@ -3,28 +3,23 @@ import java.util.Scanner;
 public class Check2
 {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int t=sc.nextInt();
-        while(t-->0){
-            int a=sc.nextInt(),b=sc.nextInt();
-            String x=sc.next(),y=sc.next();
-            boolean check=true;
-            if(a>b){
-                for(int i=0;i<a;i++){
-                    for(int j=0;j<b;j++){
-                        if(x.charAt(i)==y.charAt(j)){
-                            System.out.println(x.charAt(i)+" "+y.charAt(j));
-                            check=false;
-                            break;
-                        }
-                    }
-
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            int even = 0, odd = 0;
+            for (int i = 1; i <= n; i++) {
+                if (i % 2 == 0 && n%i==0) {
+                    even++;
+                } else if(i % 2 != 0 && n%i==0) {
+                    odd++;
                 }
-                if(check ) System.out.println("YES");
-                else System.out.println("NO");
-
             }
+            System.out.println(even + " " + odd);
+            System.out.println(even >= odd ? even == odd ? "0" : "1" : "-1");
+
         }
 
     }
+
 }
