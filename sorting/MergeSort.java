@@ -14,7 +14,7 @@ public class MergeSort {
             arr[i] = sc.nextInt();
         }
 
-        System.out.println("Array elements are:");
+        System.out.println("array.Array elements are:");
         for (int ele : arr) {
             System.out.print(ele + " ");
         }

@@ -13,7 +13,7 @@ public class SelectionSort
         for (int i = 0; i < arr.length; i++) {
             arr[i]=sc.nextInt();
         }
-        System.out.println("Array elements are :");
+        System.out.println("array.Array elements are :");
         for (int ele: arr) {
             System.out.println(ele);
         }
