@@ -1,4 +1,4 @@
-package pattern;
+package JavaPW.pattern;
 
 import java.util.Scanner;
 
@@ -36,3 +36,19 @@ public class pattern1 {
         }
     }
 }
+
+//output
+
+//Enter length of pattern : 5
+//     *
+//    * *
+//   * * *
+//  * * * *
+// * * * * *
+//
+//
+//* * * * *
+//  * * * *
+//    * * *
+//      * *
+//        *
