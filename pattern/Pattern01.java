@@ -2,7 +2,7 @@ package JavaPW.pattern;
 
 import java.util.Scanner;
 
-public class pattern01 {
+public class Pattern01 {
     public static class Pattern
     {
         public static void main(String[] args) {
