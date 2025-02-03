@@ -1,9 +1,5 @@
-package pattern;
+package JavaPW.pattern;
 import java.util.Scanner;
-//*     *
-//* *   *
-//*   * *
-//*     *
 public class Pattern6
 {
     public static void main(String[] args) {
@@ -21,3 +17,8 @@ public class Pattern6
         }
     }
 }
+//output
+//*     *
+//* *   *
+//*   * *
+//*     *
