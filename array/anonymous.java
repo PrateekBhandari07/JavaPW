@@ -1,4 +1,4 @@
-package array;
+package JavaPW.array;
 class arr{
     public void add(int arr[]){
         int total=0;
