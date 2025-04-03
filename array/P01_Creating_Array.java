@@ -8,6 +8,7 @@ public class P01_Creating_Array
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the length of the array : ");
         int len=sc.nextInt();
+
         int arr[]=new int[len];
         System.out.println("Enter the array elements : ");
         for (int i = 0; i < arr.length; i++) {
