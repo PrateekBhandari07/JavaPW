@@ -1,5 +1,5 @@
 package JavaPW.dsa;
-public class Day2_CheckPrime {
+public class Day02_CheckPrime {
     public static void main(String[] args) {
        int number=15;
        boolean isPrime =true;
