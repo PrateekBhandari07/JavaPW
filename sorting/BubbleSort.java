@@ -1,5 +1,4 @@
-package sorting;
-
+package JavaPW.sorting;
 import java.util.Scanner;
 
 public class BubbleSort
@@ -13,7 +12,7 @@ public class BubbleSort
         for (int i = 0; i < arr.length; i++) {
             arr[i]=sc.nextInt();
         }
-        System.out.println("array.Array elements are :");
+        System.out.println("array elements are :");
         for (int ele: arr) {
             System.out.println(ele);
         }
