@@ -1,4 +1,4 @@
-package sorting;
+package JavaPW.sorting;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class SelectionSort
         for (int i = 0; i < arr.length; i++) {
             arr[i]=sc.nextInt();
         }
-        System.out.println("array.Array elements are :");
+        System.out.println("array elements are :");
         for (int ele: arr) {
             System.out.println(ele);
         }
@@ -21,7 +21,7 @@ public class SelectionSort
 
         for(int i=0;i<n-1;i++){
             int min=i;
-            System.out.println(i + "iteration");
+//            System.out.println(i + "iteration");
             for(int j=i+1;j<n;j++){
                 System.out.println(i+" "+j);
                 if(arr[i]>arr[j]){
