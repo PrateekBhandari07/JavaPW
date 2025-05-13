@@ -1,6 +1,6 @@
 package JavaPW.dsa;
 
-public class ConsecutiveOne
+public class Day06_ConsecutiveOne
 {
     public static void main(String[] args) {
         int arr[]={1,0,1,1,0,1,1,1,0,1,1,1,1,1,0,1,1,1,1};
