@@ -1,5 +1,4 @@
-package sorting;
-
+package JavaPW.sorting;
 import java.util.Scanner;
 
 public class InsertionSort
@@ -13,7 +12,7 @@ public class InsertionSort
         for (int i = 0; i < arr.length; i++) {
             arr[i]=sc.nextInt();
         }
-        System.out.println("array.Array elements are :");
+        System.out.println("array.P01_Creating_Array elements are :");
         for (int ele: arr) {
             System.out.print(ele + " ");
         }
