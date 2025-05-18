@@ -3,13 +3,13 @@ public class Day05_SecondLargest
 {
     public static void main(String[] args) {
         int arr[]={5,5,2,5,2,1};
-        int firstLargest=Integer.MIN_VALUE;
+        int firstLargest=arr[0];
         int secondLargest=Integer.MIN_VALUE;
         if(arr.length<2){
             System.out.println("Array has only one element");
             return;
         }
-        for(int i=0;i<arr.length;i++){
+        for(int i=1;i<arr.length;i++){
             if(arr[i]>firstLargest){
                 secondLargest=firstLargest;
                 firstLargest=arr[i];
