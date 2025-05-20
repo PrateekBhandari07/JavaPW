@@ -3,7 +3,7 @@ package JavaPW.dsa;
 public class Day06_ConsecutiveOne
 {
     public static void main(String[] args) {
-        int arr[]={1,0,1,1,0,1,1,1,0,1,1,1,1,1,0,1,1,1,1};
+        int arr[]={1,0,1,1,0,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1};
         int couter=0;
         int max=0;
         for(int i=0;i<arr.length;i++){
