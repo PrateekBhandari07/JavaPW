@@ -15,9 +15,10 @@ public class Day08_StringReversal
 //        String result=s.replaceAll("[ ,:@//.]","").toLowerCase();
         // Remove all non-alphanumeric characters and convert to lowercase
         String result=s.replaceAll("[^a-zA-Z0-9]","").toLowerCase();
-        StringBuilder rev=new StringBuilder(result).reverse();
-        String reverse=String.valueOf(rev);
-        System.out.println(reverse+"\n"+rev);
+//        StringBuilder rev=new StringBuilder(result).reverse();
+//        String reverse=String.valueOf(rev);
+        String reverse=new StringBuilder(result).reverse().toString();
+        System.out.println(reverse+"\n"+reverse);
         if(result.equals(reverse)) return true;
         else return false;
     }
