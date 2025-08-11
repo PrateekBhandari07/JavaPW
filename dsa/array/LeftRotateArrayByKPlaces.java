@@ -1,11 +1,11 @@
 package JavaPW.dsa.array;
-
+//https://leetcode.com/problems/rotate-array/submissions/1730175359/
 public class LeftRotateArrayByKPlaces {
     public static void main(String[] args) {
 
 //        brute force approach
         int arr[]={1,2,3,4,5,6,7};
-        int k=8;
+        int k=9;
         // Normalize k if it's greater than length
         k=k%arr.length;
 
@@ -58,7 +58,7 @@ public class LeftRotateArrayByKPlaces {
         System.out.println();
 
 
-        int e=0,f=nums.length-1;   //time complexity O(d)+O(n-d)+O(n)=O(2n)
+        int e=0,f=nums.length-1;   //time complexity O(k)+O(n-k)+O(n)=O(2n)
         shift(nums,e,f);            // space complexity O(1)
         System.out.println();
         for(int ele:nums){

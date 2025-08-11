@@ -16,7 +16,7 @@ public class Second_Smallest {
 
 
 //        second  approach by running two for loop exclusively
-//        This will take time of O(n)
+//        This will take time of O(2n) --> n
         int min=arr[0];
         for(int i=1;i<arr.length;i++){
             if(arr[i]<min) min=arr[i];

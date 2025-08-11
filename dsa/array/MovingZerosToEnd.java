@@ -1,5 +1,5 @@
 package JavaPW.dsa.array;
-
+//https://leetcode.com/problems/move-zeroes/submissions/1730227414/
 import java.util.ArrayList;
 
 public class MovingZerosToEnd {
@@ -24,7 +24,7 @@ public class MovingZerosToEnd {
 
         System.out.println("\nApproach 2");
 //        Approach 2
-//        Time Complexity O(n)+O(d)+O(n-d) = O(2*n) --> O(n)
+//        Time Complexity O(n)+O(k)+O(n-k) = O(2*n) --> O(n)
 //        Space Complexity O(d) d--> number of non zero element
         ArrayList<Integer> temp=new ArrayList<>();
         for(int i=0;i<arr.length;i++){

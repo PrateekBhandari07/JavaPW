@@ -24,5 +24,10 @@ public class LeftRotateByOne
         for(int ele:arr){
             System.out.print(ele+" ");
         }
+       // Summary Table:
+
+       // Approach   	   Time Complexity	Space Complexity	Practical Performance
+       // Swapping	             O(n)	        O(1)	           Slower (more swaps)
+        //Shifting (Optimal)	 O(n)	        O(1)	           Faster (single shift)
     }
 }
